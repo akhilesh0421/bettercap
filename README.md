@@ -2,11 +2,13 @@
 
 ![bettercap](https://raw.githubusercontent.com/bettercap/media/master/logo.png)
 
-**To start with the program**
 
-bettercap iface <name of interface connected>
+## **To start with the program**
 
-**spoof.cap**
+bettercap iface **target IP**
+
+
+## **spoof.cap**
 
 net.probe on
 
