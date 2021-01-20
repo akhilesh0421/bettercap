@@ -6,7 +6,9 @@
 
 ## To start with the program
 
-bettercap iface **name_of_interface**
+<p align="center">
+  bettercap iface <b>name_of_interface</b>
+</p>
 
 ## spoof.cap
 
@@ -18,9 +20,11 @@ net.probe on
 
 ## bettercap caplet
 
-Copy the commands from **spoof.cap**, then edit it with the **target_IP** and save it in some directory. Now, move to the particular directory and run the command below:
-</br>bettercap -iface **name_of_interface** -caplet spoof.cap
+Copy the commands from <b>spoof.cap</b>, then edit it with the <b>target_IP</b> and save it in some directory with name "<i><b>spoof.cap</b></i>". Now, move to the particular directory and run the command below:
+<p align="center"></br>bettercap -iface <b>name_of_interface</b> -caplet spoof.cap</p>
 
 ## Decleration
 
-I do not own this program/software/script. Neither I have the license to distributr/sell. This is for self understanding/remembering and easy access across systems for myself.
+<p align="center">
+  <i>I do not own this program/software/script. Neither I have the license to distributr/sell. This is for self understanding/remembering and easy access across systems for myself.</i>
+</p>
