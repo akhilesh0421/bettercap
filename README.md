@@ -13,7 +13,7 @@
 ## spoof.cap
 
 net.probe on
-</br>set arp.spoof.full duplex true
+</br>set arp.spoof.fullduplex true
 </br>set arp.spoof.target **target IP**
 </br>arp.spoof on
 </br>net.sniff on
