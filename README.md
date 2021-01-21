@@ -2,10 +2,11 @@
 
 <p align="center">
   <img alt="BetterCap" src="https://raw.githubusercontent.com/bettercap/media/master/logo.png" height="140" />
-</p>
 
 ## To start with the program
 
+Firstally install the bettercap if not installed yet.
+</br>Then to start the bettercap with the below command.
 <p align="center">
   bettercap iface <b>name_of_interface</b>
 </p>
