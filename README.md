@@ -5,7 +5,7 @@
 
 ## To start with the program
 
-Firstally install the bettercap if not installed yet.
+Firstally install the bettercap if not installed yet. To check write the bettercap hepl command *bettercap --help*
 </br>Then to start the bettercap with the below command.
 <p align="center">
   bettercap iface <b>name_of_interface</b>
